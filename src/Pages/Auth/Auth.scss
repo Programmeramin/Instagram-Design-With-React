@@ -1,0 +1,274 @@
+.ins-auth-area{
+    width: 870px;
+    margin: auto;
+   
+    .ins-auth-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+
+        .ins-auth-left{
+            flex-basis: 45%;
+           
+           
+        }
+
+        a{
+            img{
+                width: 100%;
+            }
+        }
+
+
+        .ins-auth-right{
+            flex-basis: 45%;
+            
+
+            .ins-auth-container-right{
+                width: 100%;
+                border: 1px solid #bdb5b5;
+
+            }
+
+            .logo{
+                color: black;
+                width: 230px;
+                margin: auto;
+                padding: 23px;
+            }
+
+
+            .instagram-form{
+                width: 70%;
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                
+
+
+                input{
+                    padding: 9px;
+                    border: 1px solid #bdb5b5;
+                    border-radius: 3px;
+                    font-size: 12px;
+                    font-weight: 400;
+                    background-color: #fafafa;
+
+                }
+
+                button{
+                   padding: 8px;
+                   border: 1px solid #bdb5b5;
+                   border-radius: 3px;
+                   padding: 10px 0px;
+                   margin: 8px 0px;
+                   margin-bottom: 15px;
+                   background-color: #1f9ae0c9;
+                   color: white;
+                   font-size: 16px;
+                   border: none;
+                   cursor: pointer;
+                   font-weight: 600;
+                }
+
+                .form-border{
+                    display: flex;
+                    flex-direction: row;
+                    margin-bottom: 10px;
+                    .border{
+                        top: 0.0em;
+                        height: 1px;
+                        flex-shrink: 1;
+                        position: relative;
+                        flex-grow: 1;
+                        background-color: #bdb5b5;
+                    }
+
+                    .or{
+                        padding-top: 0;
+                        margin-top: -6px;
+                        margin-bottom: 0;
+                        border-bottom-width: 0;
+                        padding-bottom: 0;
+                        text-transform: uppercase;
+                        margin-right: 18px;
+                        border-left-width: 0;
+                        padding-left: 12px;
+                        flex-direction: column;
+                        border-right-width: 0;
+                        box-sizing: border-box;
+                        border-top-width: 0;
+                        display: flex;
+                        padding-right: 0px;
+                        flex-shrink: 0;
+                        font-size: 12px;
+                        font-weight: 600;
+                        color: #6d6d6d;
+                     
+                    }
+
+                }
+
+                .log-with-facebook{
+                    width: 80%;
+                    margin: auto;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: column;
+
+                    a{
+                        display: flex;
+                        gap: 10px
+                        ;
+                        font-size: 15.5px;
+                        margin-bottom: 9px;
+
+                        font-weight: 400;
+                        font-family: poppins;
+                        align-items: center;
+                        svg{
+                            color: #15658b;
+                            font-size: 19px;
+
+                        }
+
+                        &:last-child{
+                            font-size: 12px;
+                            text-align: center;
+                            margin: auto;
+                            margin-bottom: 20px;
+                            margin-top: 11px;
+                        }
+
+                        &:last-child:hover{
+                            text-decoration: underline;
+                        }
+
+                    }
+
+                }
+
+            }
+
+            .dont-have-account{
+
+                display: flex;
+                flex-direction: row;
+            }
+
+        }
+
+
+        .dont-have-account{
+            width: 100%;
+            border: 1px solid #bdb5b5;
+            margin-top: 20px;
+            margin-bottom: 15px;
+
+            .have-an-account{
+                padding: 26px;
+                margin: auto;
+                 font-size: 17px;
+                 
+               a{
+                font-size: 20px;
+                margin-left: 4px;
+                color: #4cb5f9;
+               }
+
+            }
+
+           
+
+        }
+
+        .heading{
+           font-size: 16px;
+           font-family: poppins;
+           font-weight: 400;
+           margin-bottom: 14px;
+           text-align: center;
+        }
+
+        .get-the-app{
+            width: 70%;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 10px;
+
+            a{
+                width: 50%;
+                
+                
+                img{
+                    height: 50px;
+                    border-radius: 0px;
+                    
+                }
+
+            }
+
+        }
+
+
+
+        @media(max-width: 860px){
+            .ins-auth-left{
+               display: none;
+               
+            }  
+
+            .ins-auth-right{
+             margin: auto;
+            }
+
+           
+
+        }
+
+        @media(max-width: 350px){
+            .ins-auth-container-right{
+                width: 90%;
+                border: none;
+            }
+        }
+
+    }
+
+}
+
+
+.inst-auth-footer {
+    width: 70%;
+    margin: auto;
+
+    ul{
+        display: flex;
+        gap: 10px;
+
+        li{
+            a{
+                color: #333;
+                text-transform: uppercase;
+                font-weight: 600;
+                display: block;
+                padding: 0px 0px;
+
+            
+            }
+        }
+
+    }
+
+}
+
+
+
+ul li {
+    padding: 10px 10px;
+}
